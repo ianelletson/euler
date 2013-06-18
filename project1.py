@@ -5,7 +5,7 @@ sum = 0
 for i in range(0, 1000):
     if (div_by(i, 3)):
         sum = sum + i
-    else if (div_by(i, 5)):
+    elif (div_by(i, 5)):
         sum = sum + i
 print(sum)
 
