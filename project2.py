@@ -13,5 +13,6 @@ def fib(exceed):
         fibCount2 = fibCount3
         if (fibCount3 % 2 == 0):
             fibSum = fibSum + fibCount3
+        exceed = fibCount3
         i = i + 1
     print(fibSum)
