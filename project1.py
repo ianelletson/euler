@@ -8,9 +8,9 @@ def div_by(x, multiple):
         return false
 
 #printSum: int int int -> void
-def printSum(range, div1, div2):
+def printSum(last, div1, div2):
     sum = 0
-    for i in range(0, range):
+    for i in range(0, last):
         if (div_by(i, div1)):
             sum = sum + i
         elif (div_by(i, div2)):
