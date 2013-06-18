@@ -1,16 +1,12 @@
 #Project 2
 
 #fib: int -> void
-def fib(exceed):
-    fibCount1 = 0
-    fibCount2 = 1
-    fibCount3 = 0
-    fibSum = 0
-    while fibCount3 < exceed:
-        fibCount3 = fibCount1 + fibCount2
-        fibCount1 = fibCount2
-        fibCount2 = fibCount3
-        if (fibCount3 % 2 == 0):
-            fibSum = fibSum + fibCount3
-        exceed = fibCount3
-    print(fibSum)
+def fib(limit):
+    num1 = 1
+    num2 = 2
+    num3 = 0
+    for (i in range(1,10)):
+        num3 = num1 + num2
+        num1 = num2
+        num2 = num3
+        print(num2)
