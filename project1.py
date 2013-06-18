@@ -3,9 +3,9 @@
 #div_by: int int -> bool
 def div_by(x, multiple):
     if (x % multiple == 0):
-        return true
+        return True
     else:
-        return false
+        return False
 
 #printSum: int int int -> void
 def printSum(last, div1, div2):
